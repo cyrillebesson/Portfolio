@@ -178,8 +178,6 @@
       opacity: 1;
     }
 
-
-
     @media (prefers-color-scheme: dark) {
 
       :root {
@@ -187,6 +185,28 @@
         --color-text: #ffffff;
         --color-circle: #00FF98;
         --color-link: #4091f7;
+      }
+
+    }
+
+    @media only screen and (max-width: 800px) {
+
+      body {
+
+
+
+        /* GRID */
+
+
+        grid-template-rows: 2vh 95vh 1fr 1fr 1fr 1fr 5vh;
+        grid-template-areas:
+          "header header nav"
+          "intro intro intro"
+          "project1 project1 project1"
+          "project2 project2 project2"
+          "project3 project3 project3"
+          "project4 project4 project4"
+          "footer footer footer";
       }
 
     }
