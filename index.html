@@ -60,7 +60,7 @@
         "header header nav"
         "intro intro intro"
         "project1 project2 project2"
-        "project1 project3 project4"
+        "project3 project3 project4"
         "footer footer footer";
       justify-items: stretch;
       align-items: stretch;
@@ -130,7 +130,11 @@
 
     .project1 {
       grid-area: project1;
-      background-color: #666;
+      background-color: #51bac7;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
 
     }
 
@@ -151,7 +155,11 @@
 
     .project4 {
       grid-area: project4;
-      background-color: #666;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
     }
 
     footer {
@@ -242,11 +250,11 @@
   </div>
 
 
-  <div class="projects project1">
+  <a class="projects project1" href="https://www.completesavings.co.uk/" target="_blank">
 
-    test1
+    <img src="/project1/UK_CS_logo.png" alt="" style="max-width: 250px; margin: auto;">
 
-  </div>
+  </a>
 
 
   <a class="projects project2" href="javascript:void(0);"
@@ -535,9 +543,8 @@
     </style>
 
 
-    <a id="WLS_modal_1515397788"
-    href="javascript:void(0);"
-          onclick="document.getElementById('WLS_modal_1515397788').style.display='none'; document.getElementById('WLS_popup_block_1515397788').style.display='none';">
+    <a id="WLS_modal_1515397788" href="javascript:void(0);"
+      onclick="document.getElementById('WLS_modal_1515397788').style.display='none'; document.getElementById('WLS_popup_block_1515397788').style.display='none';">
     </a>
     <div id="WLS_popup_block_1515397788">
       <div id="WLbanner_1515397788"
@@ -614,7 +621,12 @@
   </a>
 
 
-  <div class="projects project4">test4</div>
+  <a class="projects project4" href="https://nxrewards.com/" target="_blank">
+
+    <img src="/project4/UK_NX_logo.svg" alt="" width="200px" style="margin: auto;">
+
+  </a>
+
 
   <footer>
 
